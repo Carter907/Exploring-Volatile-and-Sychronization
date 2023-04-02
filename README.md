@@ -8,4 +8,4 @@ is one such example that misleads the user into thinking that `Voaltile` will al
 
 Volatile use cases:
 
-since `Volatile` doesn't sychronize operations on your fields what is it good for? `Volatile` can be used to minimize the chance of a race condition occuring and depending on your application, that change can be extremely low, but it will never be zero. Therefore, the use case for volatile is null. Never use `Volatile` unless you want to make your code more readable. It does nothing if you already implement synchronization into your program.
+since `volatile` doesn't sychronize operations on your fields what is it good for? `volatile` can be used to minimize the chance of a race condition occuring and depending on your application, that change can be extremely low, but it will never be zero. Therefore, the use case for volatile is null. Never use `volatile` unless you want to make your code more readable. It does nothing if you already implement synchronization into your program.
